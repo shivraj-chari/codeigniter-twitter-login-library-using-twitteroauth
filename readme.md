@@ -1,5 +1,5 @@
 
-# Codeigniter-Facebook-SDK-v4-login-library
+# Codeigniter Twitter Login Library Using Twitteroauth
 
 
 Integrates Twitter login with codeigniter using Twitteroauth
