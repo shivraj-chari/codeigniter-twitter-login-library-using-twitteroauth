@@ -39,14 +39,7 @@ class Auth extends CI_controller{
 			$this->session->set_userdata($data);
 
 		}else{
-			$data=array(
-				'name'=>$twitter_data->name,
-				'username'=>$twitter_data->screen_name,
-				'source'=>'twitter',
-				'profile_pic'=>"https://twitter.com/".$twitter_data->screen_name."/profile_image?size=original",
-				'link'=>'https://twitter.com/'.$twitter_data->screen_name
-			);
-			$this->general_model->SaveForm('user',$data);
+			
 			$session_data=array(
 				'sess_username'=>$twitter_data->screen_name,
 				'sess_name'=>$twitter_data->name,
