@@ -6,6 +6,10 @@ Integrates Twitter login with codeigniter using Twitteroauth
 
 # Installation
 
+Sample code is provided in demo folder.
+
+Copy the content from library and config folder to your respective codeigniter application folder.
+
 Add your consumer key,consumer secret,and callback url in `config/twitter_config.php`
 
 ```php
